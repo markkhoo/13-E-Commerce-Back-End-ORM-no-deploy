@@ -8,13 +8,14 @@ As this is a commandline allplication, steps for installion on your local machin
 1. Clone this repository onto your local machine.
 2. Install modules by navagating to the repository in your CLI and running `'npm install'`. This should install all necessary modules for this application.
 3. In your MySQL shell, run the schema that is found in `db/schema.sql` to instantiate the database locally. A snippet of the schema is provided here as well:
-```sql
-    -- DROP DATABASE
-    DROP DATABASE IF EXISTS ecommerce_db;
+    ```sql
+        -- DROP DATABASE
+        DROP DATABASE IF EXISTS ecommerce_db;
 
-    -- CREATE DATABASE
-    CREATE DATABASE ecommerce_db;
-```
+        -- CREATE DATABASE
+        CREATE DATABASE ecommerce_db;
+    ```
+    For example seeds, run `'npm run seed'` to seed the database. These seeds are optional of course.
 4. All installation steps should be complete. `'npm start'` can be used to start the application. See [Usage](##Usage) for more details.
 
 ## Usage
