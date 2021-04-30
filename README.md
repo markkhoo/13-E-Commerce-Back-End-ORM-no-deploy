@@ -18,7 +18,7 @@ As this is a commandline allplication, steps for installion on your local machin
 4. All installation steps should be complete. `'npm start'` can be used to start the application. See [Usage](##Usage) for more details.
 
 ## Usage
-This [video](#) provides a short and simple walkthrough on how to use this application. Simply run `'npm start'` in your CLI to start the server. For API calls, use Insomnia, Postman or another tool to test fetch requests.
+This [video](https://youtu.be/k1TTuy6QAng) provides a short and simple walkthrough on how to use this application. Simply run `'npm start'` in your CLI to start the server. For API calls, use Insomnia, Postman or another tool to test fetch requests.
 
 ## Technologies Used
 * Javascript
